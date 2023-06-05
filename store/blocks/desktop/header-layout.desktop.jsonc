@@ -1,0 +1,136 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#desktop"
+        ],
+        "props" : {
+            "blockClass": "teste"
+        }
+    },
+    "sticky-layout#dekstop-header" : {
+        "children" : [
+            "flex-layout.row#desktop"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "children": [
+            "flex-layout.col#desktop-header-master"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "teste"
+        }
+    },
+    "flex-layout.col#desktop-header-master": {
+        "children": [
+            "flex-layout.col#desktop-header-nav"
+            
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "teste"
+            
+        }
+    },
+    "flex-layout.col#desktop-header-nav": {
+        "children": [
+            "flex-layout.row#desktop-header",
+            "flex-layout.row#desktop-menu-submenu"
+        ],
+        "props" : {
+
+        }
+    },
+    "flex-layout.row#desktop-header": {
+        "children": [
+            "flex-layout.row#desktop-menu-search-bar",
+            "flex-layout.row#desktop-menu-login"
+            
+            /*  "flex-layout.col#spacer", */
+        ],
+        "props": {
+            "blockClass": "main-header-desktop",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#desktop-menu-login" : {
+        "children" : [
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass" : "aaaaaaaaaa"
+        }
+    },
+
+    "flex-layout.row#desktop-menu-search-bar": {
+        "children" : [
+            "flex-layout.col#logo-desktop",
+            "search-bar"
+        ]
+    },
+    "search-bar" : {
+        "props" : {
+            "blockClass" : "oie"
+        }
+    },
+    "flex-layout.col#logo-desktop" : {
+            "props": {
+                "verticalAlign": "middle"
+            },
+            "children": ["logo#desktop"]
+        },
+        "logo#desktop": {
+            "props": {
+                "blockClass": "logo-desktop",
+                "title": "logo-desktop",
+                "href": "https://mercado.carrefour.com.br/",
+                "url": "assets/asset7.svg"
+            }
+        },
+    "flex-layout.row#desktop-menu-submenu": {
+        "children": [
+			"link.product#our-products-link",
+			"link.product#beers-link",
+			"link.product#butchery-link",
+			"link.product#download-app-link",
+			"link.product#our-store-link"
+		]
+    },
+    "link.product#our-products-link" : {
+        "props" : {
+            "textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"label": "Cervejas",
+			"href": ""
+        }
+    },
+    "link.product#beers-link" : {
+        "props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"label": "Cervejas",
+			"href": ""
+		}
+    },
+    "link.product#butchery-link": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "label": "Cervejas",
+        "href": ""
+    },
+    "link.product#download-app-link": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "label": "Cervejas",
+        "href": ""
+    },
+    "link.product#our-store-link" : {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "label": "Cervejas",
+        "href": ""
+    }
+}

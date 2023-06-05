@@ -1,0 +1,196 @@
+{
+	"footer-layout.mobile": {
+		"children": ["flex-layout.row#footer"]
+	},
+	"flex-layout.row#footer": {
+		"children": ["flex-layout.col#mobile-footer-master"],
+		"props": {
+			"blockClass": "background-footer"
+		}
+	},
+	"flex-layout.col#mobile-footer-master": {
+		"children": [
+			"flex-layout.row#footer-mobile",
+			"flex-layout.col#mobile-footer-icons-latter",
+			"flex-layout.row#footer-warning",
+			"rich-text#footer-cnpj"
+		]
+	},
+	"flex-layout.col#mobile-footer-icons-latter": {
+		"children" : [
+			"flex-layout.row#footer-icons",
+			"flex-layout.row#footer-latter"
+		],
+		"props" : {
+			"blockClass" : "euaquireirei"
+		}
+	},
+	"flex-layout.row#footer-warning": {
+		"children": ["rich-text#footer-warning"]
+	},
+	"flex-layout.row#footer-latter": {
+		"children": ["rich-text#news-latter"]
+	},
+	"rich-text#news-latter": {
+		"props": {
+			"blockClass": "news-latter-footer",
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": "ajuda@marche.com.br"
+		}
+	},
+	"flex-layout.row#footer-mobile": {
+		"children": [
+			"link.product#about",
+			"link.product#doubts",
+			"link.product#privacy",
+			"link.product#terms",
+			"link.product#apps",
+			"link.product#store",
+			"link.product#work-with-us",
+			"link.product#contact",
+			"link.product#campaign",
+			"link.product#exchange"
+		],
+		"props": {
+			"blockClass": "footer-links",
+			"preventHorizontalStretch": true
+		}
+	},
+
+	"flex-layout.row#footer-icons": {
+		"children": [
+			"rich-text#footer-icon",
+			"rich-text#footer-icon1",
+			"rich-text#footer-icon2",
+			"rich-text#footer-icon3"
+		],
+		"props": {
+			"blockClass": "footer-imgs"
+		}
+	},
+	"rich-text#footer-icon": {
+		"props": {
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": "![B2U](assets/asset0.svg)"
+		}
+	},
+	"rich-text#footer-icon1": {
+		"props": {
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": "![B2U](assets/asset1.svg)"
+		}
+	},
+	"rich-text#footer-icon2": {
+		"props": {
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": "![B2U](assets/asset2.svg)"
+		}
+	},
+	"rich-text#footer-icon3": {
+		"props": {
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": "![B2U](assets/asset3.svg)"
+		}
+	},
+	"link.product#about": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Sobre",
+			"href": ""
+		}
+	},
+	"link.product#doubts": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Dúvidas",
+			"href": ""
+		}
+	},
+	"link.product#privacy": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Privacidade",
+			"href": ""
+		}
+	},
+	"link.product#terms": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Termos",
+			"href": ""
+		}
+	},
+	"link.product#apps": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Apps",
+			"href": ""
+		}
+	},
+	"link.product#store": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Lojas",
+			"href": ""
+		}
+	},
+	"link.product#work-with-us": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Trabalhe Conosco",
+			"href": ""
+		}
+	},
+	"link.product#contact": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Contato",
+			"href": ""
+		}
+	},
+	"link.product#campaign": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Campanhas",
+			"href": ""
+		}
+	},
+	"link.product#exchange": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "CENTER",
+			"label": "Trocas e Devoluções",
+			"href": ""
+		}
+	},
+	"rich-text#footer-warning": {
+		"props": {
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": "SÃO PROIBIDAS A VENDA E ENTREGA DE BEBIDAS ALCOÓLICAS A MENORES DE 18 (DEZOITO) ANOS (art. 81, II, do Estatuto da Criança e do Adolescente).",
+			"blockClass": "footer-warning"
+		}
+	},
+	"rich-text#footer-cnpj": {
+		"props": {
+			"textPosition": "CENTER",
+			"textAlignment": "CENTER",
+			"text": " CNPJ: 09.000.493/0002-15 ",
+			"blockClass": "footer-cnpj"
+		}
+	}
+}

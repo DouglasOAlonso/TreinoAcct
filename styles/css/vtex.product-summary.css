@@ -1,0 +1,38 @@
+.imageContainer{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearLink :global(.vtex-button) {
+    padding-top: 9px;
+    border-radius: 0 0 3px 3px;
+    background-color: #e6f5e8;
+    border: 1px solid #E6F5E8;
+    border-top-color: rgba(0,0,0,0.125);
+    margin-top: auto;
+    padding-bottom: 0 !important;
+    
+}
+
+.element {
+   justify-content: center;
+   padding: 0px;
+}
+
+.priceContainer{
+    height: 83px;
+}
+
+.imageNormal {
+    padding-top: 10px;
+}
+
+.productNameContainer {
+   color: #32593B !important; 
+}
+
+.productBrand {
+    font-weight: bold;
+    font-size: smaller;
+}

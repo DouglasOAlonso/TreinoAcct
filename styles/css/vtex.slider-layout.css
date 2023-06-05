@@ -1,0 +1,12 @@
+@media(max-width: 425px){
+    .slideChildrenContainer{
+        border: 0.5px solid #DADEDF;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+}
+
+.slideChildrenContainer--shelf-spacing {
+    margin: 1rem 10px 1.5rem 10px;
+} 

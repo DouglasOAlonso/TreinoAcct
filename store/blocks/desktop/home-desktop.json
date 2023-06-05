@@ -1,0 +1,34 @@
+{
+    "responsive-layout.desktop#home": {
+        "children" : [
+            "list-context.image-list#desktop"
+        ]
+    },
+    "list-context.image-list#desktop": {
+		"children": ["slider-layout#desktop-images"],
+		"props": {
+			"images": [
+				{
+					"image": "https://mfresh.s3.amazonaws.com/uploads/attachment/237188/file/8a9bb010-deb4-4696-94af-f014ceff0169.png",
+					"description": "something something",
+                    "width": "830px"
+				},
+				{
+					"image": "https://mfresh.s3.amazonaws.com/uploads/attachment/237193/file/12a5a8e6-4933-4718-88e0-a27d0b0fbeff.jpg",
+					"description": "something something",
+                    "width": "830px"
+				}
+			]
+		}
+	},
+    "slider-layout#desktop-images": {
+		"props": {
+            "blockClass" : "votoestourado",
+			"itemsPerPage": {
+				"desktop": 1
+			},
+			"infinite": true
+		}
+	}
+ 
+}

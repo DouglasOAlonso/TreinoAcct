@@ -1,0 +1,17 @@
+.cartIcon {
+    color: white;
+}
+
+@media(min-width: 1025px) {
+    .openIconContainer :global(.vtex-button) {
+        background: white;
+    }
+
+    .openIconContainer :global(.vtex-button):hover {
+        background: #acb753;
+    }
+
+    .cartIcon {
+        color: #32593B;
+    }
+}

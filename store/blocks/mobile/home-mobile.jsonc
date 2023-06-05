@@ -1,0 +1,78 @@
+{
+    "responsive-layout.phone#home-mobile" : {
+        "children" : [
+            "image#mobile-home",
+            "flex-layout.row#header-mobile",
+            "flex-layout.row#shelf-product-mobile",
+            "flex-layout.row#shelf-product-mobile",
+            "flex-layout.row#shelf-product-mobile",
+            "flex-layout.row#shelf-product-mobile"
+
+        ]
+    },
+    "flex-layout.row#shelf-product-mobile": {
+      "children" : [
+        "list-context.product-list#products-shelf-mobile"
+      ]
+    },
+    "list-context.product-list#products-shelf-mobile": {
+      "blocks" : [
+        "product-summary.shelf#products-shelf-mobile"
+      ],
+      "children": [
+        "slider-layout#products-slider-mobile"
+    ]
+    },
+     "product-summary.shelf#products-shelf-mobile": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "add-to-cart-button"
+        ]
+    },
+
+    "add-to-cart-button": {
+      "props": {
+        "text": "Adicionar"
+      }
+    },
+
+    "slider-layout#products-slider-mobile": {
+        "props": {
+          "blockClass": "shelf-spacing",
+          "autoplaySpeed": 100,
+          "timing": "100",
+          "infinite": true,
+            "itemsPerPage": {
+                "phone": 2
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never"
+        }
+    },
+    "image#mobile-home": {
+        "props": {
+          "blockClass": "img-home",
+          "src": "https://mfresh.s3.amazonaws.com/uploads/window_display/banner-st-marche-app.png"      
+        }
+      },
+      "flex-layout.row#header-mobile": {
+        "children" : [
+          "rich-text#header"
+        ],
+        "props" : {
+          "blockClass" : "backgroud-header"
+        }
+      },
+    
+      "rich-text#header" : {
+        "props" : {
+          "blockClass": "header-text",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "SUGESTÕES ESPECIAIS PARA VOCÊ",
+          "textColor": "black"
+        }
+      }
+}

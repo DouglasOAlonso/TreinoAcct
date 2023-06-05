@@ -1,0 +1,4 @@
+.footerLayoutSpacer--background-footer {
+    display: flex;
+    flex-direction: row;
+}

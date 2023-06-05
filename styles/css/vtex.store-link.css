@@ -1,0 +1,27 @@
+
+.link:hover {
+    background-color: #acb753;
+    color: #fff;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    flex-grow: 1;
+    padding: 13px 0;
+    text-align: center;
+    color: #1a5632;
+    padding: 15px 18px;   
+}
+
+.link--footer-list{
+    display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-links) .link {
+    font-size: 16px;
+    padding: 4px;
+    color: #fff;
+}

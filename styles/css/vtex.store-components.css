@@ -1,0 +1,46 @@
+.logoImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.autoCompleteOuterContainer--oie {
+    width: 200%;
+}
+
+.logoImage--logo-mobile {
+    width: 120px;
+}
+
+.logoImage--logo-desktop {
+    width: 231px;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border-radius: 3px;
+    border-color: #428851
+}
+
+.searchBarIcon--oie {
+    background-color: transparent;
+}
+
+.imageElement--img-home {
+    padding-top: 10px;
+    width: 100%;
+    max-height: 300px;
+}
+
+.swiperBullet {
+    display: none;
+}
+
+.sellingPrice {
+    color: #BA476A !important;
+    font-weight: bold;
+}
+
+.imageElement--votoestourado{
+    width: 10px;
+}
